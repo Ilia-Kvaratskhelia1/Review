@@ -1,0 +1,33 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+body{
+  background-color: #b1afae;
+  }
+
+
+.mainContainer{
+  height: 500px;
+  padding: 20px;
+  margin: 0 auto;
+}
+.title{
+  white-space: nowrap;
+}
+
+.underline{
+background-color: aqua;
+width: 200px;
+height: 5px;
+border-radius: 8px;
+margin: 0 auto;
+}
+
+@media screen and (min-width:600px) {
+  .mainContainer{
+    width: 40vw;
+  }
+}
